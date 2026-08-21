@@ -9,8 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        run: echo "Hello, world!"
+       - run: echo "Hello, world!"
 
     # steps:
     # - name: Check out repository
