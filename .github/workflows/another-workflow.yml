@@ -58,7 +58,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: latest
-
       - name: Print a message for main branch
         if: github.ref == 'refs/heads/main'
         run: echo "This is the main branch."
