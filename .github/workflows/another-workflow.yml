@@ -84,4 +84,3 @@ jobs:
         with:
           name: test-results
           path: test-results.xml
-Transform: AWS::Serverless-2016-10-31
