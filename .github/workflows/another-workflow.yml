@@ -1,7 +1,7 @@
 name: parallel-job-example
 
 # Triggers for the workflow
-'on':
+on:
   # Manual trigger using the workflow_dispatch event
   workflow_dispatch: null
 
